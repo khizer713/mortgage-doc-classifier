@@ -40,25 +40,35 @@ mortgage-doc-classifier/
 ```bash
 git clone https://github.com/khizer713/mortgage-doc-classifier.git
 cd mortgage-doc-classifier
+```
 
 ### 2. Set Up a Virtual Environment
+
+```bash
 python -m venv venv
 # Activate it:
 # Windows:
 venv\Scripts\activate
 # macOS/Linux:
 source venv/bin/activate
+```
 
 ### 3. Install Depedencies 
+
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Run The App
+
+```bash
 cd streamlit_app
 streamlit run app.py
+```
 
 The app will launch in your default browser at http://localhost:8501.
 
-Features
+## Features
 Classifies multiple mortgage-related document types
 
 Uses OpenCV + TensorFlow backend for image processing
@@ -67,7 +77,7 @@ Streamlit frontend with Flask backend API (optional)
 
 Ready to expand with OCR and schema validation
 
-🧪 Example Usage
+## 🧪 Example Usage
 Upload a scanned document (e.g., paystub.jpg) via the Streamlit UI. The app will:
 
 Preprocess the image
@@ -76,12 +86,12 @@ Run it through the trained model
 
 Display the predicted document type and confidence score
 
-📌 Next Steps
+## 📌 Next Steps
 Add sample labeled data
 
 Train and save the classification model to /models
 
 Expand Flask API and Streamlit UI for deeper workflows
 
-📄 License
+# 📄 License
 This project is licensed under the MIT License.
