@@ -11,7 +11,7 @@ A hybrid **Streamlit + Flask** machine learning app for classifying scanned mort
 
 ## 📸 Screenshot
 
-![App Screenshot](streamlit_app/assets/screenshot.png)
+![App Screenshot](streamlit-app/assets/screenshot.png)
 
 > _Tip: Save your screenshot in `streamlit_app/assets/` and update the path above accordingly._
 
@@ -40,7 +40,6 @@ mortgage-doc-classifier/
 ```bash
 git clone https://github.com/khizer713/mortgage-doc-classifier.git
 cd mortgage-doc-classifier
-
 
 ### 2. Set Up a Virtual Environment
 python -m venv venv
